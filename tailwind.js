@@ -103,6 +103,7 @@ let colors = {
   'blue-light': '#6cb2eb',
   'blue-lighter': '#bcdefa',
   'blue-lightest': '#eff8ff',
+  'laracasts-blue': '#1747b0',
 
   'indigo-darkest': '#191e38',
   'indigo-darker': '#2f365f',
@@ -954,12 +955,7 @@ module.exports = {
   |
   */
 
-  plugins: [
-    require('tailwindcss/plugins/container')({
-      // center: true,
-      // padding: '1rem',
-    }),
-  ],
+  plugins: [],
 
 
   /*

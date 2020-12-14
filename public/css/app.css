@@ -514,34 +514,6 @@ table {
  * @import "tailwindcss/components";
  */
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 576px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 992px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
-}
-
 /**
  * Here you would add any of your custom component classes; stuff that you'd
  * want loaded *before* the utilities so that the utilities could still
@@ -796,6 +768,10 @@ table {
 
 .bg-blue-lightest {
   background-color: #eff8ff;
+}
+
+.bg-laracasts-blue {
+  background-color: #1747b0;
 }
 
 .bg-indigo-darkest {
@@ -1090,6 +1066,10 @@ table {
   background-color: #eff8ff;
 }
 
+.hover\:bg-laracasts-blue:hover {
+  background-color: #1747b0;
+}
+
 .hover\:bg-indigo-darkest:hover {
   background-color: #191e38;
 }
@@ -1380,6 +1360,10 @@ table {
 
 .focus\:bg-blue-lightest:focus {
   background-color: #eff8ff;
+}
+
+.focus\:bg-laracasts-blue:focus {
+  background-color: #1747b0;
 }
 
 .focus\:bg-indigo-darkest:focus {
@@ -1746,6 +1730,10 @@ table {
   border-color: #eff8ff;
 }
 
+.border-laracasts-blue {
+  border-color: #1747b0;
+}
+
 .border-indigo-darkest {
   border-color: #191e38;
 }
@@ -2038,6 +2026,10 @@ table {
   border-color: #eff8ff;
 }
 
+.hover\:border-laracasts-blue:hover {
+  border-color: #1747b0;
+}
+
 .hover\:border-indigo-darkest:hover {
   border-color: #191e38;
 }
@@ -2328,6 +2320,10 @@ table {
 
 .focus\:border-blue-lightest:focus {
   border-color: #eff8ff;
+}
+
+.focus\:border-laracasts-blue:focus {
+  border-color: #1747b0;
 }
 
 .focus\:border-indigo-darkest:focus {
@@ -5085,6 +5081,10 @@ table {
   color: #eff8ff;
 }
 
+.text-laracasts-blue {
+  color: #1747b0;
+}
+
 .text-indigo-darkest {
   color: #191e38;
 }
@@ -5377,6 +5377,10 @@ table {
   color: #eff8ff;
 }
 
+.hover\:text-laracasts-blue:hover {
+  color: #1747b0;
+}
+
 .hover\:text-indigo-darkest:hover {
   color: #191e38;
 }
@@ -5667,6 +5671,10 @@ table {
 
 .focus\:text-blue-lightest:focus {
   color: #eff8ff;
+}
+
+.focus\:text-laracasts-blue:focus {
+  color: #1747b0;
 }
 
 .focus\:text-indigo-darkest:focus {
@@ -6182,6 +6190,10 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 920px;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;
@@ -6412,6 +6424,10 @@ a {
 
   .sm\:bg-blue-lightest {
     background-color: #eff8ff;
+  }
+
+  .sm\:bg-laracasts-blue {
+    background-color: #1747b0;
   }
 
   .sm\:bg-indigo-darkest {
@@ -6706,6 +6722,10 @@ a {
     background-color: #eff8ff;
   }
 
+  .sm\:hover\:bg-laracasts-blue:hover {
+    background-color: #1747b0;
+  }
+
   .sm\:hover\:bg-indigo-darkest:hover {
     background-color: #191e38;
   }
@@ -6996,6 +7016,10 @@ a {
 
   .sm\:focus\:bg-blue-lightest:focus {
     background-color: #eff8ff;
+  }
+
+  .sm\:focus\:bg-laracasts-blue:focus {
+    background-color: #1747b0;
   }
 
   .sm\:focus\:bg-indigo-darkest:focus {
@@ -7354,6 +7378,10 @@ a {
     border-color: #eff8ff;
   }
 
+  .sm\:border-laracasts-blue {
+    border-color: #1747b0;
+  }
+
   .sm\:border-indigo-darkest {
     border-color: #191e38;
   }
@@ -7646,6 +7674,10 @@ a {
     border-color: #eff8ff;
   }
 
+  .sm\:hover\:border-laracasts-blue:hover {
+    border-color: #1747b0;
+  }
+
   .sm\:hover\:border-indigo-darkest:hover {
     border-color: #191e38;
   }
@@ -7936,6 +7968,10 @@ a {
 
   .sm\:focus\:border-blue-lightest:focus {
     border-color: #eff8ff;
+  }
+
+  .sm\:focus\:border-laracasts-blue:focus {
+    border-color: #1747b0;
   }
 
   .sm\:focus\:border-indigo-darkest:focus {
@@ -10677,6 +10713,10 @@ a {
     color: #eff8ff;
   }
 
+  .sm\:text-laracasts-blue {
+    color: #1747b0;
+  }
+
   .sm\:text-indigo-darkest {
     color: #191e38;
   }
@@ -10969,6 +11009,10 @@ a {
     color: #eff8ff;
   }
 
+  .sm\:hover\:text-laracasts-blue:hover {
+    color: #1747b0;
+  }
+
   .sm\:hover\:text-indigo-darkest:hover {
     color: #191e38;
   }
@@ -11259,6 +11303,10 @@ a {
 
   .sm\:focus\:text-blue-lightest:focus {
     color: #eff8ff;
+  }
+
+  .sm\:focus\:text-laracasts-blue:focus {
+    color: #1747b0;
   }
 
   .sm\:focus\:text-indigo-darkest:focus {
@@ -11988,6 +12036,10 @@ a {
     background-color: #eff8ff;
   }
 
+  .md\:bg-laracasts-blue {
+    background-color: #1747b0;
+  }
+
   .md\:bg-indigo-darkest {
     background-color: #191e38;
   }
@@ -12280,6 +12332,10 @@ a {
     background-color: #eff8ff;
   }
 
+  .md\:hover\:bg-laracasts-blue:hover {
+    background-color: #1747b0;
+  }
+
   .md\:hover\:bg-indigo-darkest:hover {
     background-color: #191e38;
   }
@@ -12570,6 +12626,10 @@ a {
 
   .md\:focus\:bg-blue-lightest:focus {
     background-color: #eff8ff;
+  }
+
+  .md\:focus\:bg-laracasts-blue:focus {
+    background-color: #1747b0;
   }
 
   .md\:focus\:bg-indigo-darkest:focus {
@@ -12928,6 +12988,10 @@ a {
     border-color: #eff8ff;
   }
 
+  .md\:border-laracasts-blue {
+    border-color: #1747b0;
+  }
+
   .md\:border-indigo-darkest {
     border-color: #191e38;
   }
@@ -13220,6 +13284,10 @@ a {
     border-color: #eff8ff;
   }
 
+  .md\:hover\:border-laracasts-blue:hover {
+    border-color: #1747b0;
+  }
+
   .md\:hover\:border-indigo-darkest:hover {
     border-color: #191e38;
   }
@@ -13510,6 +13578,10 @@ a {
 
   .md\:focus\:border-blue-lightest:focus {
     border-color: #eff8ff;
+  }
+
+  .md\:focus\:border-laracasts-blue:focus {
+    border-color: #1747b0;
   }
 
   .md\:focus\:border-indigo-darkest:focus {
@@ -16251,6 +16323,10 @@ a {
     color: #eff8ff;
   }
 
+  .md\:text-laracasts-blue {
+    color: #1747b0;
+  }
+
   .md\:text-indigo-darkest {
     color: #191e38;
   }
@@ -16543,6 +16619,10 @@ a {
     color: #eff8ff;
   }
 
+  .md\:hover\:text-laracasts-blue:hover {
+    color: #1747b0;
+  }
+
   .md\:hover\:text-indigo-darkest:hover {
     color: #191e38;
   }
@@ -16833,6 +16913,10 @@ a {
 
   .md\:focus\:text-blue-lightest:focus {
     color: #eff8ff;
+  }
+
+  .md\:focus\:text-laracasts-blue:focus {
+    color: #1747b0;
   }
 
   .md\:focus\:text-indigo-darkest:focus {
@@ -17562,6 +17646,10 @@ a {
     background-color: #eff8ff;
   }
 
+  .lg\:bg-laracasts-blue {
+    background-color: #1747b0;
+  }
+
   .lg\:bg-indigo-darkest {
     background-color: #191e38;
   }
@@ -17854,6 +17942,10 @@ a {
     background-color: #eff8ff;
   }
 
+  .lg\:hover\:bg-laracasts-blue:hover {
+    background-color: #1747b0;
+  }
+
   .lg\:hover\:bg-indigo-darkest:hover {
     background-color: #191e38;
   }
@@ -18144,6 +18236,10 @@ a {
 
   .lg\:focus\:bg-blue-lightest:focus {
     background-color: #eff8ff;
+  }
+
+  .lg\:focus\:bg-laracasts-blue:focus {
+    background-color: #1747b0;
   }
 
   .lg\:focus\:bg-indigo-darkest:focus {
@@ -18502,6 +18598,10 @@ a {
     border-color: #eff8ff;
   }
 
+  .lg\:border-laracasts-blue {
+    border-color: #1747b0;
+  }
+
   .lg\:border-indigo-darkest {
     border-color: #191e38;
   }
@@ -18794,6 +18894,10 @@ a {
     border-color: #eff8ff;
   }
 
+  .lg\:hover\:border-laracasts-blue:hover {
+    border-color: #1747b0;
+  }
+
   .lg\:hover\:border-indigo-darkest:hover {
     border-color: #191e38;
   }
@@ -19084,6 +19188,10 @@ a {
 
   .lg\:focus\:border-blue-lightest:focus {
     border-color: #eff8ff;
+  }
+
+  .lg\:focus\:border-laracasts-blue:focus {
+    border-color: #1747b0;
   }
 
   .lg\:focus\:border-indigo-darkest:focus {
@@ -21825,6 +21933,10 @@ a {
     color: #eff8ff;
   }
 
+  .lg\:text-laracasts-blue {
+    color: #1747b0;
+  }
+
   .lg\:text-indigo-darkest {
     color: #191e38;
   }
@@ -22117,6 +22229,10 @@ a {
     color: #eff8ff;
   }
 
+  .lg\:hover\:text-laracasts-blue:hover {
+    color: #1747b0;
+  }
+
   .lg\:hover\:text-indigo-darkest:hover {
     color: #191e38;
   }
@@ -22407,6 +22523,10 @@ a {
 
   .lg\:focus\:text-blue-lightest:focus {
     color: #eff8ff;
+  }
+
+  .lg\:focus\:text-laracasts-blue:focus {
+    color: #1747b0;
   }
 
   .lg\:focus\:text-indigo-darkest:focus {
@@ -23136,6 +23256,10 @@ a {
     background-color: #eff8ff;
   }
 
+  .xl\:bg-laracasts-blue {
+    background-color: #1747b0;
+  }
+
   .xl\:bg-indigo-darkest {
     background-color: #191e38;
   }
@@ -23428,6 +23552,10 @@ a {
     background-color: #eff8ff;
   }
 
+  .xl\:hover\:bg-laracasts-blue:hover {
+    background-color: #1747b0;
+  }
+
   .xl\:hover\:bg-indigo-darkest:hover {
     background-color: #191e38;
   }
@@ -23718,6 +23846,10 @@ a {
 
   .xl\:focus\:bg-blue-lightest:focus {
     background-color: #eff8ff;
+  }
+
+  .xl\:focus\:bg-laracasts-blue:focus {
+    background-color: #1747b0;
   }
 
   .xl\:focus\:bg-indigo-darkest:focus {
@@ -24076,6 +24208,10 @@ a {
     border-color: #eff8ff;
   }
 
+  .xl\:border-laracasts-blue {
+    border-color: #1747b0;
+  }
+
   .xl\:border-indigo-darkest {
     border-color: #191e38;
   }
@@ -24368,6 +24504,10 @@ a {
     border-color: #eff8ff;
   }
 
+  .xl\:hover\:border-laracasts-blue:hover {
+    border-color: #1747b0;
+  }
+
   .xl\:hover\:border-indigo-darkest:hover {
     border-color: #191e38;
   }
@@ -24658,6 +24798,10 @@ a {
 
   .xl\:focus\:border-blue-lightest:focus {
     border-color: #eff8ff;
+  }
+
+  .xl\:focus\:border-laracasts-blue:focus {
+    border-color: #1747b0;
   }
 
   .xl\:focus\:border-indigo-darkest:focus {
@@ -27399,6 +27543,10 @@ a {
     color: #eff8ff;
   }
 
+  .xl\:text-laracasts-blue {
+    color: #1747b0;
+  }
+
   .xl\:text-indigo-darkest {
     color: #191e38;
   }
@@ -27691,6 +27839,10 @@ a {
     color: #eff8ff;
   }
 
+  .xl\:hover\:text-laracasts-blue:hover {
+    color: #1747b0;
+  }
+
   .xl\:hover\:text-indigo-darkest:hover {
     color: #191e38;
   }
@@ -27981,6 +28133,10 @@ a {
 
   .xl\:focus\:text-blue-lightest:focus {
     color: #eff8ff;
+  }
+
+  .xl\:focus\:text-laracasts-blue:focus {
+    color: #1747b0;
   }
 
   .xl\:focus\:text-indigo-darkest:focus {
